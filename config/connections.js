@@ -40,13 +40,13 @@ module.exports.connections = {
   * Run: npm install sails-mysql                                             *
   *                                                                          *
   ***************************************************************************/
-  taskSideSqlServer: {
-     adapter: 'sails-mysql',
-     host: 'us-cdbr-azure-southcentral-f.cloudapp.net',
-     user: 'ba0ed80fbc1447', //optional
-     password: "ecee3046", //optional
-     database: 'tasksidedb' //optional
-   },
+  // taskSideSqlServer: {
+  //    adapter: 'sails-mysql',
+  //    host: 'us-cdbr-azure-southcentral-f.cloudapp.net',
+  //    user: 'ba0ed80fbc1447', //optional
+  //    password: "ecee3046", //optional
+  //    database: 'tasksidedb' //optional
+  //  },
 
   /***************************************************************************
   *                                                                          *
@@ -56,23 +56,22 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-/*
+
   TaskSideMongodbServer: {
-     //adapter: 'sails-mongo',
-    // host: 'localhost',
-    // port: 27017,
      adapter: 'sails-mongo',
-     user: process.env.dbuser,
-     password: process.env.dbpassword,
-     host: process.env.dbhost,
-     port: process.env.dbport,
+     host: 'localhost',
+     port: 27017,
+     // user: process.env.dbuser,
+     // password: process.env.dbpassword,
+     // host: process.env.dbhost,
+     // port: process.env.dbport,
      //database: process.env.dbname,
      ssl: true
   //   user: 'username', //optional
   //   password: 'password', //optional
   //   database: 'your_mongo_db_name_here' //optional
    },
-*/
+
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *
