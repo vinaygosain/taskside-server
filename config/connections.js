@@ -66,7 +66,7 @@ module.exports.connections = {
      // host: process.env.dbhost,
      // port: process.env.dbport,
      //database: process.env.dbname,
-     ssl: true
+     // ssl: true
   //   user: 'username', //optional
   //   password: 'password', //optional
   //   database: 'your_mongo_db_name_here' //optional
